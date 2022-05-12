@@ -9,7 +9,7 @@ import Foundation
 import CoreLocation
 
 // Configuration for automatic moving when standing still in manual mode
-fileprivate let kGpsUncertaintyTimeInterval: Range<TimeInterval> = 3.0..<10.0
+fileprivate let kGpsUncertaintyTimeInterval: Range<TimeInterval> = 110.0..<118.0
 fileprivate let kGpsUncertaintyHeadingInterval: Range<CLLocationDegrees>  = 0.0..<360.0
 fileprivate let kGpsUncertaintyDistanceInterval: Range<CLLocationDistance> = 1.0..<2.0
 
